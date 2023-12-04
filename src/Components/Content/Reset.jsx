@@ -3,7 +3,7 @@ import React from 'react';
 function Reset({ resetAllCounters }) {
     return (
         <button
-            className="reset-button"
+            className="button"
             type="button"
             onClick={resetAllCounters}
         >

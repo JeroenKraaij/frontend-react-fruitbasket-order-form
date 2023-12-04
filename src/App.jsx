@@ -10,6 +10,7 @@ import Header from './Components/Header/Header.jsx';
 import Navigation from './Components/Navigation/Navigation.jsx';
 import Reset from './Components/Content/Reset.jsx';
 import './App.css';
+import Form from "./Components/Content/Form.jsx";
 
 function App() {
 
@@ -32,8 +33,10 @@ function App() {
                 <Navigation image={brandlogo} alt="Brand logo" />
             </nav>
             <section className="content">
-                <h1>De fruitmand bezorgservice:</h1>
-                <p>(Bestel je fruit en klik het aantal aan)</p>
+                <div className='header-content'>
+                    <h1>De fruitmand bezorgservice:</h1>
+                    <p>(Bestel je fruit en klik het aantal aan)</p>
+                </div>
                 <Fruitbox
                     image={strawberry}
                     alt="Aardbeien"
@@ -64,8 +67,10 @@ function App() {
                 />
                 <Reset resetAllCounters={resetAllCounters} />
                 <h1>Bestel je fruit:</h1>
-                <form className="form-order-fruit"></form>
+
+                <Form />
             </section>
+
         </>
     );
 }

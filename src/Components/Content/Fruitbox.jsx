@@ -6,7 +6,7 @@ function Fruitbox(props) {
             <h2>{props.title}</h2>
             <div className="counter">
                 <button
-                className="button"
+                className="product-button"
                 type='button'
                 disabled={props.count === 0}
                 onClick={() => props.setCount(props.count -1)}
@@ -14,7 +14,7 @@ function Fruitbox(props) {
                 -</button>
                 <h2>{props.count}</h2>
                 <button
-                className="button"
+                className="product-button"
                 type='button'
                 onClick={() => props.setCount(props.count +1)}
                 >
