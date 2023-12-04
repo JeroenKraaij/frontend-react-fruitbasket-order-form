@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-image {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: -50px;
+    justify-content: center;
+
+}
+
+.brandlogo {
+    width: 300px;
+    height: 100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    align-items: center;
+    row-gap: 25px;
+    padding: 20px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.fruitbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    border: black solid 1px;
+    border-radius: 15px;
+}
+
+.product-image {
+    padding: 10px;
+    height: 150px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    justify-content: space-around;
+}
+
+.button {
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    font: inherit;
+    color: white;
+    background: linear-gradient(to right, #FF8400, #F86C30);
+    border-radius: 25px;
+}
+
+.button:hover {
+    background: linear-gradient(to right, #F86C30, #FF8400);
+    border-color: #FF8400;
+}
+.product-button {
+    background: linear-gradient(to right, #F86C30, #FF8400);
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: white;
+}
+
+.form-order-fruit {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 500px;
+    border-radius: 15px;
+    border: #cccccc;
+    padding: 60px;
+    background-color: burlywood;
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.form-label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.label input {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.label textarea {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing only */
+}
+
+.label-check {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.label-checkbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.label-dropdown {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    width: 50%;
+
+}
+.label-dropdown select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
