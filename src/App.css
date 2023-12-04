@@ -1,0 +1,63 @@
+.header-image {
+    width: 100%;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin-top: -50px;
+    justify-content: center;
+
+}
+.brandlogo {
+    width: 300px;
+    height: 100px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    row-gap: 25px;
+    padding: 20px;
+}
+.fruitbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    border: black solid 1px;
+    border-radius: 15px;
+
+}
+.product-image {
+    padding: 10px;
+    height: 150px;
+}
+.counter {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    justify-content: space-around;
+
+}
+.button {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+
+}
+
+.form-order-fruit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    border: black solid 1px;
+    border-radius: 15px;
+
+}
